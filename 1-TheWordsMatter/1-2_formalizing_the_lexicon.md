@@ -32,13 +32,13 @@
 
 ## Exercise 1.25
 ### Conjecture a propositional form equivalent to ∼ (P ∨ Q) and use truth tables to verify your conjecture. The preceding exercises indicate that the negation operation ∼ “distributes” across parentheses in a regular and intuitive way. This is an important part of writing useful and stylistic “denials”.
-    - ~(P v Q) = (~P) ^ (~Q)
-    | P | Q | ~(P v Q) | (~P) ^ (~Q) |
-    |---|---|----------|-------------|
-    | T | T | F        | F           |
-    | T | F | F        | F           |
-    | F | T | F        | F           |
-    | F | F | T        | T           |
+~(P v Q) = (~P) ^ (~Q)
+| P | Q | ~(P v Q) | (~P) ^ (~Q) |
+|---|---|----------|-------------|
+| T | T | F        | F           |
+| T | F | F        | F           |
+| F | T | F        | F           |
+| F | F | T        | T           |
 
 ## Definition 1.26
 ### A _denial_ of a proposition P is any proposition with the sametruth value as ∼P .
