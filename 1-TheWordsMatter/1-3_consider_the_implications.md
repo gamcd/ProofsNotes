@@ -28,7 +28,6 @@ Here,
 | T | F | F | F | F |
 | F | T | T | T | T |
 | F | F | T | T | T |
-|---|---|-------|----|--------|
 
 ## Def 1.37
 ### Given the conditional sentance P ⇒ Q, the _converse_ is Q ⇒ P
@@ -38,7 +37,6 @@ Here,
 | T | F | T |
 | F | T | F |
 | F | F | T |
-|---|---|-------|
 
 ## Def 1.38
 ### Given the conditional sentance P ⇒ Q, the _contrapositive_ is ~Q ⇒ ~P)
@@ -48,8 +46,7 @@ Here,
 | T | F | F | F |
 | F | T | T | T |
 | F | F | T | T |
-|---|---|---------|-------|
-So, P ⇒ Q is equal to the contrapositive, ~Q ⇒ ~P
+ - So, P ⇒ Q is equal to the contrapositive, ~Q ⇒ ~P
 
 
 ## Exercise 1.39
@@ -60,8 +57,7 @@ So, P ⇒ Q is equal to the contrapositive, ~Q ⇒ ~P
 | T | F | F | F | T |
 | F | T | T | T | F |
 | F | F | T | T | T |
-|---|---|---------|-------|-------|
-So, P ⇒ Q is equal to the contrapositive because they have the same truth table values, ~Q ⇒ ~P
+ - So, P ⇒ Q is equal to the contrapositive because they have the same truth table values, ~Q ⇒ ~P
 
 ## Exercise 1.40  
 ### Write the converse and contrapositive of the conditional sentence “If f is an even function, then f (2) = f (−2).” When the implication between propositions P and Q “runs both ways”, we have a much stronger logical relationship.``
