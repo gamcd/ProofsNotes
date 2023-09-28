@@ -56,6 +56,7 @@ So, P ⇒ Q is equal to the contrapositive, ~Q ⇒ ~P
 | T | F | F | F | T |
 | F | T | T | T | F |
 | F | F | T | T | T |
+
 So, P ⇒ Q is equal to the contrapositive because they have the same truth table values, ~Q ⇒ ~P
 
 ## Exercise 1.40  
