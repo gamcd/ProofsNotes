@@ -36,4 +36,7 @@ P(cat): the cat is a reptile
 4. (∃x)(x² < 0): F
 5. (∃x)(Σ(n = 0, ∞, x^n converges)): T
 
-to 1.53
+## Exercise 1.53
+### Name a universe in which (∃x)(x^2 + 1 = 0) is true.
+ℂ - the complex number space
+
