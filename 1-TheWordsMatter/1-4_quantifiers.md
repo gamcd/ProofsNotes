@@ -27,7 +27,7 @@ P(cat): the cat is a reptile
 3. (∀x)(x² > 0) F
 
 ## Def 1.50 (Existential Qualifier)
-### Given an open Sentanc P(x), (∃x) P(x) is read "There exists at least  one x in the universe such that P(x) is true"
+### Given an open sentance P(x), (∃x) P(x) is read "There exists at least  one x in the universe such that P(x) is true"
 
 ## Exercise 1.52
 1. (∃x)(x² = 4): T
