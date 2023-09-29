@@ -90,3 +90,5 @@ Converse:       "If f(2) = f(-2) then f is an even function"
     - True
 3. “If 5 < 2, then 10 < 7.” if and only if “Elvis lives.” is a proposition.
     - False, the biconditional will always disagree resulting in False
+
+to end of 1.4

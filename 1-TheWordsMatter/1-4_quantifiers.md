@@ -34,9 +34,26 @@ P(cat): the cat is a reptile
 2. (∃x)(|x| = 0): T
 3. (∃x)(2x + 7 = 3x - 9): T
 4. (∃x)(x² < 0): F
-5. (∃x)(Σ(n = 0, ∞, x^n converges)): T
+5. (∃x)(Σ(n = 0, ∞, xⁿ converges)): T
 
 ## Exercise 1.53
 ### Name a universe in which (∃x)(x^2 + 1 = 0) is true.
-ℂ - the complex number space
+ℂ
 
+observe,
+## Exercise 1.54
+### ~(∀x) P(x) ⇔ (∃x)(~P(x)))
+true
+
+## Exercise 1.55
+### ~(∃x) P(x) ⇔ (∀x)(~P(x)))
+true
+
+## Exercise 1.59
+### Let the universe be the real numbers R. Determine the truth value for each proposition.
+1. (∀x)(∃y)(x < y) in universe ℝ
+    for all x, there exists a y where x < y
+     - true
+2. (∃y)(∀x)(x < y) in universe ℝ
+    there exists a y, where for any x, x < y
+     - false
