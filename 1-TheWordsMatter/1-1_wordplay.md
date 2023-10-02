@@ -7,7 +7,7 @@ True, W = 'hit'
     
 ## Proposition 1.11
 ### If the list { sit, hut, sum, W } is tight and W begins neither with “s” nor “h”, then the last letter of W is a “t”.
-True, because in order for there to be a match in the last two characters, the last two characters of W  must be "ut"
+True
 
 ## Proposition 1.12
 ### There exist tight stable lists of length-3 words.

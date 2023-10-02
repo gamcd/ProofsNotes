@@ -14,6 +14,7 @@ EX:
 
 ## Def 1.20:
 ### Let P be a proposition. The _negation_ of P denoted ~P, is true precisely when P is false and vice versa
+"It is not that case that ..."
 
 ## Exercise 1.21:
 let P be "All stable lists are tight"             False

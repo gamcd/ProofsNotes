@@ -61,9 +61,9 @@ true
 ## Exercise 1.60
 ### Let the universe be the real numbers ℝ. Write the negation of each proposition.
 1. (∀x)(∃y)(x < y)
-    - (∀x)(~∃x)(x < y)
+    - (∃x)(∀x)(x > y))
 2. (∃y)(∀x)(x < y)
-    - (∃y)(~Ax)(x < y)
+    - (∀x)(∃y)(x > y)
 
 ## Definition 1.61 (Unique Existential Quantifier)
 ### Let P(x) be an open sentence with variable x. The proposition (∃!x)P(x) is read “There exists a unique x such that P(x)” and is true precisely when P(x) is true for exactly one value of x in the universe
