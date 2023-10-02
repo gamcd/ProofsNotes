@@ -50,10 +50,29 @@ true
 true
 
 ## Exercise 1.59
-### Let the universe be the real numbers R. Determine the truth value for each proposition.
+### Let the universe be the real numbers ℝ. Determine the truth value for each proposition.
 1. (∀x)(∃y)(x < y) in universe ℝ
     for all x, there exists a y where x < y
      - true
 2. (∃y)(∀x)(x < y) in universe ℝ
     there exists a y, where for any x, x < y
      - false
+
+## Exercise 1.60
+### Let the universe be the real numbers ℝ. Write the negation of each proposition.
+1. (∀x)(∃y)(x < y)
+    - (∀x)(~∃x)(x < y)
+2. (∃y)(∀x)(x < y)
+    - (∃y)(~Ax)(x < y)
+
+## Definition 1.61 (Unique Existential Quantifier)
+### Let P(x) be an open sentence with variable x. The proposition (∃!x)P(x) is read “There exists a unique x such that P(x)” and is true precisely when P(x) is true for exactly one value of x in the universe
+
+## Exercise 1.62
+### Let the universe be the real numbers ℝ. Determine the truth value for each proposition.
+1. (∃!x)(x ≥ 0 ∧ x ≤ 0)
+    - true
+2. (∃!x)(x > 5)
+    - false
+3. (∃!x)(x² = 4)
+    - false
