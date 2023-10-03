@@ -15,14 +15,21 @@ If the second letter of W is a 'u', then tightness requires d(sit, W) <= 2 so th
 ## Theorem 2.4
 ### Let a, b and c be integers. If a divides b, then a divides bc.
 Proof:
-Suppose integer a divides integer b such that b = ak for some other integer k. For some other integer c, the product of b and c is equivalent to (ak)c which by associativity is a(kc) where k and c are integers. Therefore, in any case where a divides b, a will also divide the product bc.
+Suppose integer a divides integer b such that b = ak for some other integer k.
+For some other integer c, the product of b and c is equivalent to (ak)c which by associativity is a(kc) where k and c are integers.
+Therefore, in any case where a divides b, a will also divide the product bc.
 
 ## Theorem 2.5
 ### Let a, b and c be integers. If a divides b and a divides b + c, then a divides 3c.
-Suppose integer a divides integer b such that b = ak, and that for some other integer c, a divides the sum of b and c where (b + c) = ak.
+Proof:
+Suppose integer a divides integer b such that b = ak, and that a divides the sum b + c such that b + c = aj.
+Because b + c = aj, for j to be an integer equal to (ak + c) / a, a has to divide c as well.
+Therefore, a divides both b and b + c, because a always divides c, a also divides 3c.
 
 ## Exercise 2.6
 ### Create a definition for what it means for an integer to be even.
+An integer n is defined as even when 2 divides n
 
 ## Exercise 2.7
 ### Create a definition for what it means for an integer to be odd.
+An integer n is defined as odd when 2 does not divide n
