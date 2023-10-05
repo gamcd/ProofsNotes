@@ -37,7 +37,47 @@ Therefore, a always divides 3c.
 ## Exercise 2.6
 ### Create a definition for what it means for an integer to be even.
 An integer n is defined as _even_ when 2 divides n
+An integer n is defined as _even_ when a = 2n for some a
 
 ## Exercise 2.7
 ### Create a definition for what it means for an integer to be odd.
 An integer n is defined as _odd_ when 2 does not divide n
+An integer n is defined as _odd_ when a = 2n + 1 for some a
+
+
+## Theorem 2.8
+### If x and y are even integers, then x + y is an even integer.
+Proof:
+Suppose x and y are even integers, such that x = 2a and y = 2b for some integers a and b.
+The sum of x and y can be expressed as (2a + 2b) or 2(a + b).
+Because a + b is an integer being multiplied by 2, 2(a + b) will always be even.
+Therefore, x + y is even.
+□
+
+## Theorem 2.9
+### If x and y are odd integers, then x + y is an even integer.
+Suppose x and y are even integers, such that x = 2a + 1 and y = 2b + 1 for some integers a and b.
+The sum of x and y can be expressed as (2a + 1 + 2b + 1) or 2(a + b + 1).
+Because a + b + 1 is an integer being multiplied by 2, 2(a + b + 1) will always be even.
+Therefore, x + y is even.
+□
+
+## Theorem 2.10
+### If x and y are even integers, then 4 divides x · y.
+Proof:
+Suppose x and y are even integers where x = 2a and y = 2b for some integers a and b.
+The product of x and y can be expressed as (2a · 2b) or 4(a + b).
+Because a + b is an integer, 4 always divides 4(a + b).
+Therefore, 4 divides x · y.
+□
+
+## Theorem 2.11
+### If x is an integer, then x² + x + 3 is an odd integer.
+Proof: 
+Suppose x is an integer.
+In the situation where x is even, then x = 2k for some integer k.
+□
+
+## Theorem 2.12
+### The product of consecutive integers is an even integer.
+
