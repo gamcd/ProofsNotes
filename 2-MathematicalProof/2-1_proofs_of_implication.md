@@ -80,4 +80,10 @@ In the situation where x is even, then x = 2k for some integer k.
 
 ## Theorem 2.12
 ### The product of consecutive integers is an even integer.
-
+Proof:
+We will show that if x is an integer, then x · (x + 1) is even.
+Suppose there are two consecutive integers x and x + 1.
+When x is even, x + 1 is odd, and when x is odd, x + 1 is even.
+In both cases, the product can be expressed as 2k · (2j + 1) or 2 · (k(2j + 1)) where k and j are integers.
+Therefore, The product of consecutive integers is an even integer.
+□
