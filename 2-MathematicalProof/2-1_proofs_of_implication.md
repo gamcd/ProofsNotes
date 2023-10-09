@@ -87,3 +87,4 @@ When x is even, x + 1 is odd, and when x is odd, x + 1 is even.
 In both cases, the product can be expressed as 2k · (2j + 1) or 2 · (k(2j + 1)) where k and j are integers.
 Therefore, The product of consecutive integers is an even integer.
 □
+
