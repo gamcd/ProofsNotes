@@ -42,3 +42,9 @@ Therefore, P ⇔ Q
 Proof:
     Suppose ac divides bc such that bc = (ac)k for some integer k.
 □
+
+## Proposition 2.22
+### At any Cal Poly football game there are at least two people in attendance with the same number of friends in attendance.
+
+## Proposition 2.23
+### Suppose Finn and Sloan come from a land where each person either always lies or always tells the truth. If Finn says “Exactly one of us is lying” and Sloan says “Finn is telling the truth”, then Finn and Sloan are both lying.
