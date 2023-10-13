@@ -23,5 +23,15 @@ Consider x = π, y = -π
 □
 
 ## Proposition 2.29
-### There exists an irrational number r such that r^sqrt(2) is rational.
-// cases
+### There exists an irrational number r such that r<sup>√2<sup> is rational.
+Proof:
+    Suppose sqrt(2) is irrational.
+        
+□
+
+## Proposition 2.30
+### There exist integers m and n such that 7m + 2n = 1.
+
+
+## Proposition 2.31
+### Some two grandmothers of past or present U.S. presidents have birthdays within eleven days of one another.
