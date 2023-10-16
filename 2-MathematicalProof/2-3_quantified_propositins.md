@@ -23,15 +23,70 @@ Consider x = π, y = -π
 □
 
 ## Proposition 2.29
-### There exists an irrational number r such that r<sup>√2<sup> is rational.
+### There exists an irrational number r such that r<sup>√2</sup> is rational.
 Proof:
-    Suppose sqrt(2) is irrational.
-        
+    Consider the number p =  √2<sup>√2</sup>.
+    In the case the p is rational, we are done because the irrational number r = √2
+    In the case that p is not rational, Notice that (√2<sup>√2</sup>)<sup>√2</sup> = 2.
+    So in this case, r = √2<sup>√2</sup> is the desired irrational number.
+    In either case, we have exhibited the claimed irrational number r.
 □
 
 ## Proposition 2.30
 ### There exist integers m and n such that 7m + 2n = 1.
-
+Proof:
+Consider m = -1, n = 4
+□
 
 ## Proposition 2.31
 ### Some two grandmothers of past or present U.S. presidents have birthdays within eleven days of one another.
+Proof:
+There have been 46 presidents to date, each with 2 grandmothers, such that there are 92 total that we have to keep track of.
+Proceeding by contradiction:
+For each grandmother to be spaced 
+□
+
+# Subsection 2.3.2
+Proofs of Universal Proposition
+
+## Proposition 2.32
+### For every odd integer n, 2n² + 3n + 4 is odd.
+Proof:
+Let n be an arbitrary odd integer.
+Then n = 2k + 1 for some integer k.
+So 2n² + 3n + 4 = ... = 2(Some integer) + 1.
+So for all odd integers n, 2n² + 3n + 4 is itself odd.
+□
+
+## Theorem 2.33
+### For all positive real numbers x and y, (x + y)/2 ≥ √xy.
+
+Proof:
+Let x and y be arbitrary positive real numbers.
+Certainly, (x - y)² >= 0.
+Thus, x² - 2xy + y² >= 0.
+Adding 4xy to both sides,
+we obtain x² + 2xy + y² >= 4xy, or (x + y)² >= 4xy.
+Rooting each side leaves us with
+x + y >= 2√xy,
+(x + y)/2 >= √xy.
+□
+
+## Proposition 2.34
+### For every real number x, there exists a real number y such that x < y.
+Proof:
+Let x be an arbitrary real number.
+Consider y = x + 1.
+□
+
+## Proposition 2.35
+### There exists a real number y such that for every real number x, x < y.
+
+## Proposition 2.36
+### For each real number x there exists a real number y such that x + y = 0.
+
+## Proposition 2.37
+### For every positive real number x there exists a positive real number y < x such that (∀z)(z > 0 ⇒ yz ≥ z).
+
+## Proposition 2.38
+### For every positive real number ε there exists a positive integer N such that n ≥ N ⇒ 1/n < ε.
