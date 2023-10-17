@@ -81,12 +81,54 @@ Consider y = x + 1.
 
 ## Proposition 2.35
 ### There exists a real number y such that for every real number x, x < y.
+DisProof:
+Let y be any arbitrary real number.
+By 2.34, there exists a real number j such that j > y.
+Because j exists, the Proposition is false.
+□
+
 
 ## Proposition 2.36
 ### For each real number x there exists a real number y such that x + y = 0.
+Proof:
+Let x be an arbitrary real number.
+Certainly, x - x = 0.
+Consider y = -x.
+□
 
 ## Proposition 2.37
 ### For every positive real number x there exists a positive real number y < x such that (∀z)(z > 0 ⇒ yz ≥ z).
+DisProof:
+Consider x = 1, such that all possible y are less than 1.
+Consider z = 1.
+Because all possible y are less than 1, z being positive does not imply that the product of z and y is greater than or equal to z.
+Therefore, the proposition is false
+□
 
 ## Proposition 2.38
 ### For every positive real number ε there exists a positive integer N such that n ≥ N ⇒ 1/n < ε.
+Proof:
+Let ε be an arbitrary positive real number.
+Certainly, if a positive real number n is greater than ε, then 1/n < ε.
+There will always exist a real number j greater than ε (by 2.34).
+Consider N being j rounded up to the nearest natural number,
+such that n >= N, and n is greater than ε.
+□
+
+# Subsection 2.3.3
+Proofs of unique existence
+Proof:
+1. Show (∃x)(P(x))
+2. Show P(x<sub>1</sub>) ^ P(x<sub>2</sub>) ⇒ x<sub>1</sub> = x<sub>2</sub>
+□
+
+## Proposition 2.39
+### There exists a unique positive real number x whose square is 9.
+Proof:
+1. Consider x = 3
+2. Suppose Some positive reals x and y both equal 9 when squared.
+    Surely, x² - y² = 0.
+    So, (x - y)(x + y) = 0.
+    Since x and y are positive, (x + y) is nonzero,
+    so (x - y) = 0 or x = y
+□
