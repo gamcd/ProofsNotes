@@ -32,8 +32,8 @@ Proof:
 
 ## Definition 3.42
 ### Let ∆ be a nonempty set. Suppose for each α ∈ ∆ there is a corresponding set A<sub>α</sub>. The family of sets Ā = {A<sub>α</sub> : α ∈ ∆} is called an _indexed family of sets_. Each α ∈ ∆ is a particular index and the set ∆ is called the indexing set.
-Union of A<sub>α</sub for α ∈ Δ = { x ∈ U | x ∈ A<sub>α</sub> for at least one α ∈ Δ }
-Intersection of A<sub>α</sub for α ∈ Δ = { x ∈ U | x ∈ A<sub>α</sub> for all α ∈ Δ }
+Union of A<sub>α</sub> for α ∈ Δ = { x ∈ U | x ∈ A<sub>α</sub> for at least one α ∈ Δ }
+Intersection of A<sub>α</sub> for α ∈ Δ = { x ∈ U | x ∈ A<sub>α</sub> for all α ∈ Δ }
 
 ## Exercise 3.46
 ### Let ∆ = ℕ. For each n ∈ ∆, let A<sub>n</sub> = (−1/n, 2 + 2/n]. Determine the union and intersection of A<sub>n</sub> for n ∈ ℕ.
