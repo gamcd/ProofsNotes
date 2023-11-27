@@ -6,7 +6,7 @@
 ## Definition 3.33
 ### Let Ā be a family of sets in some universe U. The union and intersection of all sets in Ā are given by
 ∪<sub>A ∈ Ā</sub>A = { x ∈ U : x ∈ A for at least one set A ∈ Ā }
-∩<sub>A ∈ Ā</sub>A = { x ∈ U : x ∈ A for at least one set A ∈ Ā }
+∩<sub>A ∈ Ā</sub>A = { x ∈ U : x ∈ A for all sets A ∈ Ā }
 
 ## Exercise 3.34
 ### Let Ā = {[a, ∞) ⊆ ℝ : a ∈ ℝ}. Determine ∪<sub>A ∈ Ā</sub>A ∩<sub>A ∈ Ā</sub>A

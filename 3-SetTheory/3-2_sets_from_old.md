@@ -35,6 +35,7 @@ Because x ∈ C∪D and x ∉ C, x ∈ D.
 Therefore, [x ∈ B ⇒ x ∈ D], and B ⊆ D.
 □
 
+
 ## Kerry's Theorem
 ### Let A and B be sets. then A ∪ B = A if and only if B ⊆ A.
 Proof:
