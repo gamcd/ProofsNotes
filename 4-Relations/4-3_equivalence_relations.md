@@ -30,11 +30,11 @@ Moreover, A/R = { x/R | x ∈ A }
 ### Let R be the relation on ℤ given by R = { (x, y) ∈ ℤ × ℤ : 5 divides x-y }.
 
 ## Example 4.31
-### "R" -> "≡₅"
-### "(2, 7) ∈ R" -> "(2, 7) ∈ ≡₅"
-### "(2, 7) ∈ ≡₅" -> "2≡₅7"
-### "(2, 7) ∈ ≡₅" -> "2 ≡ 7 mod 5"
-### ℤ/R = ℤ/≡<sub>m</sub> = ℤ<sub>m</sub>
+#### "R" -> "≡₅"
+#### "(2, 7) ∈ R" -> "(2, 7) ∈ ≡₅"
+#### "(2, 7) ∈ ≡₅" -> "2≡₅7"
+#### "(2, 7) ∈ ≡₅" -> "2 ≡ 7 mod 5"
+#### ℤ/R = ℤ/≡<sub>m</sub> = ℤ<sub>m</sub>
 
 ## Proposition 4.35
 ### Let m ∈ Z \ {0}. If a ≡<sub>m</sub> b and c ≡<sub>m</sub> d, then (a + c) ≡<sub>m</sub> (b + d).
@@ -56,7 +56,9 @@ Proof:
     let some arbitary w ∈ A. by Reflexivity, (w, w) ∈ R.
     It would stand to reason then, that w ∈ w/R.
 □
+
 (b) A = ∪<sub>x∈A</sub>x/R.
+Proof:
 1. [z ∈ A ⇒ z ∈ ∪<sub>x∈A</sub>x/R]
     Suppose z ∈ A.
     Consider x = z, such that z ∈ x/R.
@@ -64,8 +66,10 @@ Proof:
     let z ∈ ∪<sub>x∈A</sub>x/R such that there exists an x ∈ A where z ∈ x/R.
     In other words, (z, x) ∈ R where z ∈ A.
     Thus, z ∈ A
+□
 
 (c) (x, y) ∈ R iff x/R = y/R.
+Proof:
     1. [(x, y) ∈ R ⇒ x/R = y/R]
         Suppose xRy
         1. let w ∈ x/R.
@@ -78,6 +82,8 @@ Proof:
     2. [x/R = y/R ⇒ (x, y) ∈ R]
         Suppose x/R = y/R such that w ∈ x/R ⇒ w ∈ y/R, and w ∈ x/R ⇒ w ∈ y/R.
         ...
+□
+
 (d) (x, y) ∉ R iff x/R ∩ y/R = ∅.
 1. [(x, y) ∉ R ⇒ x/R ∩ y/R = ∅]
 2. [x/R ∩ y/R = ∅ ⇒ (x, y) ∉ R]
