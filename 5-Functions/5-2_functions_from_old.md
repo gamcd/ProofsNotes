@@ -19,3 +19,4 @@ Proof:
     2. Suppose (a, c₁) ∈ g ∘ f and (a, c₂) ∈ g ∘ f.
         By relationship composition from chapter 4, we know there exists some b₁, b₂ ∈ B
 
+
